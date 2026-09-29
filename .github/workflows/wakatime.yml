@@ -1,0 +1,35 @@
+name: WakaTime
+
+on:
+  # Refresh daily (WakaTime data is a rolling window)
+  schedule:
+    - cron: "1 0 * * *"
+  # Allow manual runs from the Actions tab (do this once after setup)
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: write
+
+# metrics and wakatime both commit to the default branch; run them one at a time
+concurrency:
+  group: profile-commits
+  cancel-in-progress: false
+
+jobs:
+  wakatime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Renders a bar chart of your coding activity to images/stat.svg and commits it
+      - name: Update WakaTime chart
+        uses: avinal/Profile-Readme-WakaTime@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          # Commit to whichever branch the workflow is running on (main or master)
+          BRANCH: ${{ github.ref_name }}
+          COMMIT_MSG: "Automated coding activity update"
+          # Rolling window; see https://wakatime.com/developers#stats for options
+          STATS_RANGE: "last_7_days"
