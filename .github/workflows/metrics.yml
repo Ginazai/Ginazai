@@ -38,10 +38,18 @@ jobs:
       # plugin still queries GitHub's Projects Classic API, which GitHub has sunset, so
       # it fails with "Unexpected error" on every run. This fork migrated it to Projects V2.
       # https://github.com/EUR-UN/metrics-community/releases
+      #
+      # IMPORTANT: use the "yuanweize/metrics-community" path, not "EUR-UN/metrics-community".
+      # The repo now lives under the EUR-UN org, and that path still resolves via GitHub's
+      # redirect, but the action's own build script only recognizes "lowlighter" or
+      # "yuanweize" as owners with a prebuilt image on ghcr.io. Any other owner string
+      # (including "EUR-UN") is treated as an unrecognized fork and rebuilds the full
+      # Docker image from source on every run, which is what timed out.
       - name: Achievements
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@v3.35.0-community.2
+        uses: yuanweize/metrics-community@v3.35.0-community.2
         with:
+          use_prebuilt_image: yes
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           filename: metrics.achievements.svg
