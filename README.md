@@ -6,16 +6,12 @@
 [![GitHub](https://img.shields.io/github/followers/Ginazai?label=Follow&style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/Ginazai)
 [![Visitors](https://komarev.com/ghpvc/?username=Ginazai&style=for-the-badge&color=grey)](https://visitcount.itsvg.in)
 
----
-
 <!-- ## 👋 About Me
 
 - 🔭 Currently working on **[current project]**
 - 🌱 Currently learning **[a topic or technology]**
 - 💬 Ask me about **[what you know best]**
 - 📫 Reach me at **[your email or LinkedIn]** -->
-
----
 
 ## 💻 Tech Stack
 
@@ -114,46 +110,30 @@
 ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
 ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B)
 
----
-
----
-
 ## 📊 GitHub Stats
 
 | | |
 |---|---|
 | ![GitHub Stats](https://github-readme-stats.shion.dev/api?username=Ginazai&theme=dark&hide_border=false&include_all_commits=true&count_private=true) | ![Streak Stats](https://streak-stats.demolab.com/?user=Ginazai&theme=dark&hide_border=false) |
 
----
-
 ## 🔤 Languages
 
 ![Languages](https://raw.githubusercontent.com/Ginazai/Ginazai/HEAD/metrics.languages.svg)
-
----
 
 ## ⏱️ Coding Activity
 
 ![WakaTime coding activity](https://raw.githubusercontent.com/Ginazai/Ginazai/HEAD/images/stat.svg)
 
----
-
 ## 🏆 Achievements
 
 ![Achievements](https://raw.githubusercontent.com/Ginazai/Ginazai/HEAD/metrics.achievements.svg)
-
----
 
 ## 🗓️ Contribution Calendar
 
 ![Isometric contribution calendar](https://raw.githubusercontent.com/Ginazai/Ginazai/HEAD/metrics.isocalendar.svg)
 
----
-
 ## 🐍 Contribution Snake
 
 ![Contribution snake](https://raw.githubusercontent.com/Ginazai/Ginazai/output/github-contribution-grid-snake-dark.svg)
-
----
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:1f6feb,100:0d1117&height=100&section=footer)
