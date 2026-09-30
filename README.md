@@ -1,6 +1,6 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=180&section=header&text=Ginazai&fontSize=60&fontColor=ffffff&fontAlignY=38&animation=fadeIn)
+![Header](https://capsule-render.vercel.app/api?type=venom&height=220&color=gradient&customColorList=6,11,20&text=Ginazai&fontColor=fff)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Full-stack+developer+%26+tinkerer;Web+%C2%B7+Mobile+%C2%B7+Data+%C2%B7+Hardware;Always+learning+something+new)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Full-stack+developer+%26+tinkerer;Web+%C2%B7+Mobile+%C2%B7+Data+%C2%B7+Hardware;Always+learning+something+new)](https://git.io/typing-svg)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=%23FF7139)](#)
 [![GitHub](https://img.shields.io/github/followers/Ginazai?label=Follow&style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/Ginazai)
@@ -136,4 +136,4 @@
 
 ![Contribution snake](https://raw.githubusercontent.com/Ginazai/Ginazai/output/github-contribution-grid-snake-dark.svg)
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:1f6feb,100:0d1117&height=100&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
