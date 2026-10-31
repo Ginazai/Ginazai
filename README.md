@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Full-stack+developer+%26+tinkerer;Web+%C2%B7+Mobile+%C2%B7+Data+%C2%B7+Hardware;Always+learning+something+new)](https://git.io/typing-svg)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=%23FF7139)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=%23FF7139)](https://ginazai.github.io/portfolio/)
 [![GitHub](https://img.shields.io/github/followers/Ginazai?label=Follow&style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/Ginazai)
 [![Visitors](https://komarev.com/ghpvc/?username=Ginazai&style=for-the-badge&color=grey)](https://visitcount.itsvg.in)
 
